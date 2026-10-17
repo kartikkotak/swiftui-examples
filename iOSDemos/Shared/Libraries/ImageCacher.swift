@@ -1,7 +1,5 @@
 import Foundation
 
-
-
 actor ImageCacher<Key: AnyObject, Value: AnyObject> {
     
     typealias CacheFactory = @Sendable () -> NSCache<Key, Value>
